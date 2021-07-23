@@ -14,7 +14,6 @@ const Hero = () => {
         <HeroContainer>
             <Navbar toggle={toggle} />
             <Sidebar isOpen={isOpen} toggle={toggle} />
-            <Overlay></Overlay>
             <HeroContent>
                 <HeroItems>
                     <HeroH1>Greatest Pizza Ever</HeroH1>

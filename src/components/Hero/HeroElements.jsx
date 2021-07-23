@@ -2,8 +2,9 @@ import styled from 'styled-components';
 import ImgBg from '../../images/pizza-3.jpg'
 
 export const HeroContainer = styled.div`
-    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0,0.1));
-    background-image: url(${ImgBg});
+background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+  url(${ImgBg});
+    /* background-image: url(${ImgBg}); */
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -66,13 +67,4 @@ export const HeroBtn = styled.button`
         transition: 0.2s ease-out;
         color: #000;
     }
-`
-
-export const Overlay = styled.div`
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5);
 `
